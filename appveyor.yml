@@ -20,6 +20,5 @@ deploy:
   tag: v$(appveyor_build_version)
   release: NecroBot v$(appveyor_build_version)
   auth_token:
-    secure: px9J5F3HvX/qeFg2A3+JYXEPrquugBGmOXwZWWgB1G7zrIhKwJraTNKjYpziUGT3
+    secure: 6PJ3cwd4I0DRJPv7w8iFAP6iPp94a4omr0Ajl0exmZ3qEnGLdqDwihlgFBFNBHWU
   artifact: NecroBot
-  draft: false

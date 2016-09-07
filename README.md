@@ -3,7 +3,7 @@
     <img alt="Logo" src="https://discordapp.com/api/guilds/209253611031625728/widget.png?style=banner2">
   </a>
 
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/NzV/NecroBot/releases) 
+[![Build status](https://ci.appveyor.com/api/projects/status/imsro698j6kk7bis?svg=true)](https://ci.appveyor.com/project/NzV/necrobot)
 [![Github All Releases](https://img.shields.io/github/downloads/NzV/NecroBot/total.svg)](https://github.com/NzV/NecroBot/releases)
 [![Discord](https://discordapp.com/api/guilds/209253611031625728/widget.png)](https://discord.gg/VXKxNFr)
 [![Stories in Ready](https://badge.waffle.io/NzV/NecroBot.svg?label=ready&title=Ready)](https://waffle.io/NzV/NecroBot)

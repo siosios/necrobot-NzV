@@ -1,5 +1,5 @@
 version: 0.9.8.{build}
-skip_non_tags: true
+skip_tags: true
 configuration: Release
 platform: x86
 assembly_info:

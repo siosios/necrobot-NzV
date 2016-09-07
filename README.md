@@ -2,11 +2,18 @@
 <a href="https://discord.gg/VXKxNFr">
     <img alt="Logo" src="https://discordapp.com/api/guilds/209253611031625728/widget.png?style=banner2">
   </a>
-  
+
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/NzV/NecroBot/releases) 
+[![Github All Releases](https://img.shields.io/github/downloads/NzV/NecroBot/total.svg)](https://github.com/NzV/NecroBot/releases)
 [![Discord](https://discordapp.com/api/guilds/209253611031625728/widget.png)](https://discord.gg/VXKxNFr)
 [![Stories in Ready](https://badge.waffle.io/NzV/NecroBot.svg?label=ready&title=Ready)](https://waffle.io/NzV/NecroBot)
-[![Github All Releases](https://img.shields.io/github/downloads/NzV/NecroBot/total.svg)](https://github.com/NzV/NecroBot/releases)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/NzV/NecroBot/master/LICENSE.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg?maxAge=2592000)](https://github.com/NzV/NecroBot/blob/master/CONTRIBUTORS.md)
+
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork&maxAge=2592000)]()
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&maxAge=2592000)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch&maxAge=2592000)]()
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow&maxAge=2592000)]()
   
 ## This repository is a fork updated of [NecroBot](https://github.com/NoxxDev/NecroBot) who is a fork of [NecroBot](https://github.com/NECROBOTIO/NecroBot)
 

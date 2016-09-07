@@ -107,7 +107,7 @@ namespace PoGo.NecroBot.Logic.State
                 Message = session.Translation.GetTranslation(TranslationString.FinishedDownloadingRelease)
             });
 
-            if (!UnpackFile(downloadFilePath, tempPath))
+            if (!UnpackFile(downloadFilePath, extractedDir))
                 return new LoginState();
 
             session.EventDispatcher.Send(new UpdateEvent
@@ -202,7 +202,7 @@ namespace PoGo.NecroBot.Logic.State
 
                 var gitVersion = new Version($"{match.Groups[1]}.{match.Groups[2]}.{match.Groups[3]}.{match.Groups[4]}");
                 RemoteVersion = gitVersion;
-                if (gitVersion >= Assembly.GetExecutingAssembly().GetName().Version)
+                if (gitVersion > Assembly.GetExecutingAssembly().GetName().Version)
                     return false;
             }
             catch (Exception)

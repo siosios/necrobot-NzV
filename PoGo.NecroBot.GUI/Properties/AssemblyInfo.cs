@@ -11,10 +11,13 @@ using Awesomium.Core;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("NecroBot.GUI")]
-[assembly: AssemblyDescription("NecroBot.GUI")]
+[assembly: AssemblyTitle("NecroBot GUI")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("Necrobot GUI v" + ReleaseInfo.LIBRARY_VERSION)]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("PoGo.NecroBot.GUI")]
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

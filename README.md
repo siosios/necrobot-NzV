@@ -4,8 +4,8 @@
   </a>
   
 [![Discord](https://discordapp.com/api/guilds/209253611031625728/widget.png)](https://discord.gg/VXKxNFr)
-[![Stories in Ready](https://badge.waffle.io/NoxxDev/NecroBot.svg?label=ready&title=Ready)](https://waffle.io/NoxxDev/NecroBot)
-[![Github All Releases](https://img.shields.io/github/downloads/NoxxDev/NecroBot/total.svg)](https://github.com/NoxxDev/NecroBot/releases)
+[![Stories in Ready](https://badge.waffle.io/NzV/NecroBot.svg?label=ready&title=Ready)](https://waffle.io/NzV/NecroBot)
+[![Github All Releases](https://img.shields.io/github/downloads/NzV/NecroBot/total.svg)](https://github.com/NzV/NecroBot/releases)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/NoxxDev/NecroBot/master/LICENSE.md)
 [![Twitter Follow](https://img.shields.io/twitter/follow/NoxxDev.svg?style=social&label=Follow&maxAge=1)](https://twitter.com/NoxxDev)
   

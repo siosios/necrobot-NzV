@@ -1,0 +1,25 @@
+version: 0.9.8.{build}
+skip_non_tags: true
+configuration: Release
+platform: x86
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+before_build:
+- cmd: nuget restore
+build:
+  verbosity: minimal
+artifacts:
+- path: PoGo.NecroBot.CLI\bin\x86\Release
+  name: NecroBot
+deploy:
+- provider: GitHub
+  tag: v$(appveyor_build_version)
+  release: NecroBot v$(appveyor_build_version)
+  auth_token:
+    secure: px9J5F3HvX/qeFg2A3+JYXEPrquugBGmOXwZWWgB1G7zrIhKwJraTNKjYpziUGT3
+  artifact: NecroBot
+  draft: false

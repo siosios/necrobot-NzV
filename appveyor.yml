@@ -12,13 +12,34 @@ before_build:
 - cmd: nuget restore
 build:
   verbosity: minimal
+after_build:
+- cmd: >-
+    if exist "C:\release" rmdir "C:\release" /s /q
+
+    if not exist "C:\release" mkdir "C:\release"
+
+    if exist "C:\release\necrobotgui" rmdir "C:\release\necrobotgui" /s /q
+
+    if not exist "C:\release\necrobotgui" mkdir "C:\release\necrobotgui"
+
+    xcopy "C:\projects\necrobot\PoGo.NecroBot.CLI\bin\x86\Release\GUI" "C:\release\necrobotgui" /s /e
+
+    if exist "C:\release\necrobot" rmdir "C:\release\necrobot" /s /q
+
+    if not exist "C:\release\necrobot" mkdir "C:\release\necrobot"
+
+    xcopy "C:\projects\necrobot\PoGo.NecroBot.CLI\bin\x86\Release" "C:\release\necrobot" /s /e
+
+    rmdir "C:\release\necrobot\GUI" /s /q
 artifacts:
-- path: PoGo.NecroBot.CLI\bin\x86\Release
-  name: NecroBot
+- path: C:\release\necrobotgui
+  name: NecroBot.GUI
+- path: C:\release\necrobot
+  name: NecroBot.Console
 deploy:
 - provider: GitHub
   tag: v$(appveyor_build_version)
   release: NecroBot v$(appveyor_build_version)
   auth_token:
     secure: 6PJ3cwd4I0DRJPv7w8iFAP6iPp94a4omr0Ajl0exmZ3qEnGLdqDwihlgFBFNBHWU
-  artifact: NecroBot
+  artifact: NecroBot.Console;NecroBot.GUI

@@ -90,12 +90,12 @@ namespace PoGo.NecroBot.Logic.State
             });
             var remoteReleaseUrl =
                 $"https://github.com/NzV/NecroBot/releases/download/v{RemoteVersion}/";
-            const string zipName = "Release.zip";
+            const string zipName = "NecroBot.Console.zip";
             var downloadLink = remoteReleaseUrl + zipName;
             var baseDir = Directory.GetCurrentDirectory();
             var downloadFilePath = Path.Combine(baseDir, zipName);
             var tempPath = Path.Combine(baseDir, "tmp");
-            var extractedDir = Path.Combine(tempPath, "Release");
+            var extractedDir = Path.Combine(tempPath, "NecroBot.Console");
             var destinationDir = baseDir + Path.DirectorySeparatorChar;
             Console.WriteLine(downloadLink);
 
@@ -194,13 +194,13 @@ namespace PoGo.NecroBot.Logic.State
         {
             try
             {
-                var regex = new Regex(@"\[assembly\: AssemblyVersion\(""(\d{1,})\.(\d{1,})\.(\d{1,})""\)\]");
+                var regex = new Regex(@"\[assembly\: AssemblyVersion\(""(\d{1,})\.(\d{1,})\.(\d{1,})\.(\d{1,})""\)\]");
                 var match = regex.Match(DownloadServerVersion());
                 
                 if (!match.Success)
                     return false;
 
-                var gitVersion = new Version($"{match.Groups[1]}.{match.Groups[2]}.{match.Groups[3]}");
+                var gitVersion = new Version($"{match.Groups[1]}.{match.Groups[2]}.{match.Groups[3]}.{match.Groups[4]}");
                 RemoteVersion = gitVersion;
                 if (gitVersion >= Assembly.GetExecutingAssembly().GetName().Version)
                     return false;

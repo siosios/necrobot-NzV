@@ -167,24 +167,24 @@ namespace PoGo.NecroBot.Logic.Utils
                     { "HardwareModel", "SM-G935T" }
                 }
             },
-            { "asus-zenfone2",
-                new Dictionary<string, string>()
-                {
-                    { "AndroidBoardName", "moorefield" },
-                    { "AndroidBootloader", "" },
-                    { "DeviceBrand", "asus" },
-                    { "DeviceId", "8525f5d8201f78b5" },
-                    { "DeviceModel", "ASUS_Z00AD" },
-                    { "DeviceModelBoot", "qcom" },
-                    { "DeviceModelIdentifier", "WW_Z00A" },
-                    { "FirmwareBrand", "WW_Z00A" },
-                    { "FirmwareFingerprint", "asus/WW_Z00A/Z00A_1:5.0/LRX21V/2.20.40.194_20160713_6971_user:user/release-keys" },
-                    { "FirmwareTags", "release-keys" },
-                    { "FirmwareType", "user" },
-                    { "HardwareManufacturer", "asus" },
-                    { "HardwareModel", "ASUS_Z00AD" }
-                }
-            },
+            //{ "asus-zenfone2",
+            //    new Dictionary<string, string>()
+            //    {
+            //        { "AndroidBoardName", "moorefield" },
+            //        { "AndroidBootloader", "" },
+            //        { "DeviceBrand", "asus" },
+            //        { "DeviceId", "8525f5d8201f78b5" },
+            //        { "DeviceModel", "ASUS_Z00AD" },
+            //        { "DeviceModelBoot", "qcom" },
+            //        { "DeviceModelIdentifier", "WW_Z00A" },
+            //        { "FirmwareBrand", "WW_Z00A" },
+            //        { "FirmwareFingerprint", "asus/WW_Z00A/Z00A_1:5.0/LRX21V/2.20.40.194_20160713_6971_user:user/release-keys" },
+            //        { "FirmwareTags", "release-keys" },
+            //        { "FirmwareType", "user" },
+            //        { "HardwareManufacturer", "asus" },
+            //        { "HardwareModel", "ASUS_Z00AD" }
+            //    }
+            //},
             { "xperia-z5",
                 new Dictionary<string, string>()
                 {
@@ -329,24 +329,24 @@ namespace PoGo.NecroBot.Logic.Utils
                     { "HardwareModel", "Nexus 5" }
                 }
             },
-            { "xoom",
-                new Dictionary<string, string>()
-                {
-                    { "AndroidBoardName", "" },
-                    { "AndroidBootloader", "1050" },
-                    { "DeviceBrand", "motorola" },
-                    { "DeviceId", "8525f5d8201f78b5" },
-                    { "DeviceModel", "Xoom" },
-                    { "DeviceModelBoot", "qcom" },
-                    { "DeviceModelIdentifier", "tervigon" },
-                    { "FirmwareBrand", "tervigon" },
-                    { "FirmwareFingerprint", "motorola/tervigon/wingray:4.1.2/JZO54K/485486:user/release-keys" },
-                    { "FirmwareTags", "test-keys" },
-                    { "FirmwareType", "userdebug" },
-                    { "HardwareManufacturer", "Motorola" },
-                    { "HardwareModel", "Xoom" }
-                }
-            },
+            //{ "xoom",
+            //    new Dictionary<string, string>()
+            //    {
+            //        { "AndroidBoardName", "" },
+            //        { "AndroidBootloader", "1050" },
+            //        { "DeviceBrand", "motorola" },
+            //        { "DeviceId", "8525f5d8201f78b5" },
+            //        { "DeviceModel", "Xoom" },
+            //        { "DeviceModelBoot", "qcom" },
+            //        { "DeviceModelIdentifier", "tervigon" },
+            //        { "FirmwareBrand", "tervigon" },
+            //        { "FirmwareFingerprint", "motorola/tervigon/wingray:4.1.2/JZO54K/485486:user/release-keys" },
+            //        { "FirmwareTags", "test-keys" },
+            //        { "FirmwareType", "userdebug" },
+            //        { "HardwareManufacturer", "Motorola" },
+            //        { "HardwareModel", "Xoom" }
+            //    }
+            //},
             { "galaxy-note-edge",
                 new Dictionary<string, string>()
                 {
@@ -365,24 +365,24 @@ namespace PoGo.NecroBot.Logic.Utils
                     { "HardwareModel", "SM-N915W8" }
                 }
             },
-            { "amazon-fire-cm12",
-                new Dictionary<string, string>()
-                {
-                    { "AndroidBoardName", "ford" },
-                    { "AndroidBootloader", "" },
-                    { "DeviceBrand", "google" },
-                    { "DeviceId", "8525f5d8201f78b5" },
-                    { "DeviceModel", "KFFOWI" },
-                    { "DeviceModelBoot", "qcom" },
-                    { "DeviceModelIdentifier", "cm_ford" },
-                    { "FirmwareBrand", "cm_ford" },
-                    { "FirmwareFingerprint", "google/cm_ford/ford:5.1.1/LMY48Y/ba503d5e70:userdebug/test-keys" },
-                    { "FirmwareTags", "test-keys" },
-                    { "FirmwareType", "userdebug" },
-                    { "HardwareManufacturer", "amzn" },
-                    { "HardwareModel", "KFFOWI" }
-                }
-            },
+            //{ "amazon-fire-cm12",
+            //    new Dictionary<string, string>()
+            //    {
+            //        { "AndroidBoardName", "ford" },
+            //        { "AndroidBootloader", "" },
+            //        { "DeviceBrand", "google" },
+            //        { "DeviceId", "8525f5d8201f78b5" },
+            //        { "DeviceModel", "KFFOWI" },
+            //        { "DeviceModelBoot", "qcom" },
+            //        { "DeviceModelIdentifier", "cm_ford" },
+            //        { "FirmwareBrand", "cm_ford" },
+            //        { "FirmwareFingerprint", "google/cm_ford/ford:5.1.1/LMY48Y/ba503d5e70:userdebug/test-keys" },
+            //        { "FirmwareTags", "test-keys" },
+            //        { "FirmwareType", "userdebug" },
+            //        { "HardwareManufacturer", "amzn" },
+            //        { "HardwareModel", "KFFOWI" }
+            //    }
+            //},
             { "nexus4-chroma",
                 new Dictionary<string, string>()
                 {
@@ -401,24 +401,24 @@ namespace PoGo.NecroBot.Logic.Utils
                     { "HardwareModel", "Nexus 4" }
                 }
             },
-            { "melrose-s9",
-                new Dictionary<string, string>()
-                {
-                    { "AndroidBoardName", "g15" },
-                    { "AndroidBootloader", "" },
-                    { "DeviceBrand", "alps" },
-                    { "DeviceId", "8525f5d8201f78b5" },
-                    { "DeviceModel", "MELROSE S9" },
-                    { "DeviceModelBoot", "mtk" },
-                    { "DeviceModelIdentifier", "g15" },
-                    { "FirmwareBrand", "g15" },
-                    { "FirmwareFingerprint", "alps/g15/g15:4.4.2/KOT49H/:user/release-keys" },
-                    { "FirmwareTags", "release-keys" },
-                    { "FirmwareType", "user" },
-                    { "HardwareManufacturer", "alps" },
-                    { "HardwareModel", "MELROSE S9" }
-                }
-            },
+            //{ "melrose-s9",
+            //    new Dictionary<string, string>()
+            //    {
+            //        { "AndroidBoardName", "g15" },
+            //        { "AndroidBootloader", "" },
+            //        { "DeviceBrand", "alps" },
+            //        { "DeviceId", "8525f5d8201f78b5" },
+            //        { "DeviceModel", "MELROSE S9" },
+            //        { "DeviceModelBoot", "mtk" },
+            //        { "DeviceModelIdentifier", "g15" },
+            //        { "FirmwareBrand", "g15" },
+            //        { "FirmwareFingerprint", "alps/g15/g15:4.4.2/KOT49H/:user/release-keys" },
+            //        { "FirmwareTags", "release-keys" },
+            //        { "FirmwareType", "user" },
+            //        { "HardwareManufacturer", "alps" },
+            //        { "HardwareModel", "MELROSE S9" }
+            //    }
+            //},
             { "yureka",
                 new Dictionary<string, string>()
                 {
